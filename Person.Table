@@ -1,0 +1,5 @@
+CREATE TABLE [Person] (
+  [Id] INTEGER PRIMARY KEY AUTOINCREMENT, 
+  [Name] NVARCHAR NOT NULL, 
+  [Phone] BLOB, 
+  [Address] NVARCHAR(600));
